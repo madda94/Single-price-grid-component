@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: 'Karla', sans-serif;
+}
+body {
+	background-color: hsl(204, 43%, 93%);
+}
+#main {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: 8rem auto 3rem;
+	box-shadow: 0.5rem 0.5rem 1rem hsl(204, 43%, 80%);
+	border-radius: 12px;
+}
+#intro {
+	background-color: white;
+	padding: 2.5rem;
+	height: 14rem;
+	border-radius: 10px 10px 0px 0px;
+}
+h1 {
+	color: hsl(179, 62%, 43%);
+	font-size: 1.3rem;
+	margin-bottom: 1.5rem;
+	font-weight: 700;
+	text-shadow: 0.5px 0.5px;
+}
+h2 {
+	color: hsl(71, 73%, 54%);
+	font-weight: 700;
+	margin-bottom: 1rem;
+	font: 1.2rem;
+	text-shadow: 0.5px 0.5px;
+} 
+#intro p {
+	color: hsl(218, 22%, 67%);
+	padding-right: 2rem;
+	line-height: 1.6;
+	font-size: 0.9rem;
+	text-shadow: 0.3px 0.3px;
+}
+#second {
+	color: hsl(0, 100%, 100%);
+	display: flex;
+	flex-direction: row;
+}
+#subs {
+	background-color: hsl(179, 62%, 43%);
+	padding: 2rem;
+	width: 50%;
+	border-radius: 0px 0px 0px 10px;
+}
+#motiv {
+	background-color: hsl(179, 62%, 48%);
+	padding: 2rem;
+	width: 50%;
+	border-radius: 0px 0px 10px 0px;
+}
+h3 {
+	margin-bottom: 1rem;
+}
+li {
+	list-style-type: none;
+	font-size: 0.8rem;
+	color: hsl(179, 62%, 90%);
+	margin-bottom: 0.2rem;
+}
+span {
+	font-size: 2rem;
+	color: hsl(0, 100%, 100%);
+}
+#price {
+	color: hsl(179, 62%, 60%);
+	margin-bottom: 0.5rem;
+}
+#acces {
+	color: hsl(179, 62%, 90%);
+	margin-bottom: 1.5rem;
+}
+button {
+	color: hsl(0, 100%, 100%);
+	background-color: hsl(71, 73%, 54%);
+	width: 100%;
+	padding: 0.8rem;
+	border-style: none;
+	border-radius: 5px;
+	font-weight: 700;
+}
+.attribution { 
+	font-size: 11px; 
+	text-align: center;
+	margin-bottom: 2rem;
+	color: hsl(179, 62%, 43%);
+}
+.attribution a { 
+	color: hsl(179, 50%, 20%); 
+	font-size: 11px;
+	text-decoration: none;
+}
+@media screen and (max-width: 700px) {
+	#main {
+		width: 85%;
+		margin: 6rem auto 2rem;
+		border-radius: 5px;
+		height: 100%;
+	}
+	#intro {
+		height: 100%;
+	}
+	h2 {
+		margin-bottom: 1.3rem;
+		font: 1.3rem;
+	} 
+	#intro p {
+			padding-right: 1.5rem;
+			line-height: 1.7;
+			font-size: 1rem;
+	}
+	#second {
+		display: flex;
+		flex-direction: column;
+	}
+	#subs {
+		width: 100%;
+		border-radius: 0px;
+	}
+	#motiv {
+		width: 100%;
+		border-radius: 0px 0px 10px 10px;
+	}
+	h3 {
+		font-size: 1.3rem;
+	}
+	li {
+		font-size: 1rem;
+	}
+	span {
+		font-size: 2.2rem;
+	}
+	#price {
+		margin-bottom: 0.5rem;
+		font-size: 1.1rem;
+	}
+	#acces {
+		font-size: 1.1rem;
+	}
+	button {
+		padding: 1rem;
+	}
+}
